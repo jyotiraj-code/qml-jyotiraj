@@ -12,7 +12,7 @@ X = np.linspace(0, 2*np.pi, 5) #5 input datapoints 0 and 2pi
 #Telling the optimizer that this is not a parameter but an input datapoint
 
 X.requires_grad = False
-Y = np.sin(X) #The output for the input datapoints
+Y = np.sin(X) #The output  for the input datapoints
 
 #Creating the test data
 #Shifted from the training data by 0.2
